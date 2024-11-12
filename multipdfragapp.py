@@ -13,7 +13,7 @@ from client import RiskAzureOpenAIEmbeddings
 from langchain.agents import AgentExecutor, create_tool_calling_agent
 
 load_dotenv()
-api_key = "1d6bf084823a4a93b30a103a7f035046"
+api_key = ""
 embeddings = RiskAzureOpenAIEmbeddings(openai_api_key=api_key)
 llm = RiskAzureChatOpenAI(openai_api_key=api_key, temperature=0.)
 def pdf_read(pdf_doc):

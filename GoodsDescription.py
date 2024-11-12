@@ -10,7 +10,7 @@ from langchain.retrievers.self_query.base import SelfQueryRetriever
 from langchain.chains.query_constructor.base import AttributeInfo
 load_dotenv()
 
-api_key = "1d6bf084823a4a93b30a103a7f035046"
+api_key = ""
 DOC_PATH = "document.json"
 
 embeddings = RiskAzureOpenAIEmbeddings(openai_api_key=api_key)

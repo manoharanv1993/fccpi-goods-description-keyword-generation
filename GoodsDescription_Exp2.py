@@ -12,7 +12,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.vectorstores import Chroma
 import chromadb
 
-api_key = "1d6bf084823a4a93b30a103a7f035046"
+api_key = ""
 DOC_PATH = "Files\Tariff_Reference_Document_13_March_2019.pdf"
 
 embeddings = RiskAzureOpenAIEmbeddings(openai_api_key=api_key)
